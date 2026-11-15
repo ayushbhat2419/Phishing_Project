@@ -1,0 +1,110 @@
+{
+  "champion_name": "Random Forest",
+  "feature_names": [
+    "url_length",
+    "domain_length",
+    "dot_count",
+    "hyphen_count",
+    "special_char_count",
+    "has_https",
+    "is_ip_address",
+    "subdomain_count",
+    "suspicious_keyword_count",
+    "is_shortened",
+    "shannon_entropy",
+    "domain_entropy",
+    "digit_count",
+    "digit_ratio",
+    "path_depth",
+    "has_at_symbol",
+    "is_high_risk_tld",
+    "brand_in_subdomain"
+  ],
+  "models_benchmarked": {
+    "Logistic Regression": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          18,
+          0
+        ],
+        [
+          0,
+          16
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          18,
+          0
+        ],
+        [
+          0,
+          16
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          18,
+          0
+        ],
+        [
+          0,
+          16
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          18,
+          0
+        ],
+        [
+          0,
+          16
+        ]
+      ]
+    },
+    "XGBoost": {
+      "accuracy": 0.9706,
+      "precision": 1.0,
+      "recall": 0.9375,
+      "f1_score": 0.9677,
+      "roc_auc": 1.0,
+      "confusion_matrix": [
+        [
+          18,
+          0
+        ],
+        [
+          1,
+          15
+        ]
+      ]
+    }
+  }
+}
